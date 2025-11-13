@@ -4,7 +4,9 @@
   "type": "module",
   "scripts": {
     "start": "node server.js",
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "build": "echo 'No build step required' && exit 0"
+
   },
   "dependencies": {
     "cors": "^2.8.5",
